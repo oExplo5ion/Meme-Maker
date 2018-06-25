@@ -39,15 +39,16 @@ public class MemeImage extends JLabel {
                     extension.equals("png")) {
                 // file is an image
                 // create new image
+//                BufferedImage scaledBI = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+                BufferedImage scaledBI = null;
                 try {
-                    int imageType = BufferedImage.TYPE_INT_RGB;
-                    BufferedImage scaledBI = new BufferedImage(width, height, imageType);
-                    Graphics2D g = scaledBI.createGraphics();
-                    g.drawImage(ImageIO.read(image), 0, 0, width, height, null);
+                    scaledBI = ImageIO.read(image);
+                    BufferedImage cropedImg = scaledBI.getSubimage(0,0, width, height);
+                    Graphics2D g = cropedImg.createGraphics();
+                    g.drawImage(cropedImg, 0, 0, null);
                     g.dispose();
-                    return scaledBI;
+                    return cropedImg;
                 } catch (IOException e) {
-                    e.printStackTrace();
                     return null;
                 }
             }
