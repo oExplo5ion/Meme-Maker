@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49cb7f48-403e-4751-bfe6-62cf45afb86a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meme Maker/views/MemeImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meme Maker/views/MemeImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panels/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/ImagePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/MemeImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MemeImage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/panels/ImagePanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="34" column="110" lean-forward="true" selection-start-line="34" selection-start-column="110" selection-end-line="34" selection-end-column="110" />
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemeImage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemeImage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/MemeImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="62">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
                 <element signature="docComment;class#MemeImage#0" />
                 <element signature="method#setupUI#0;class#MemeImage#0" />
@@ -81,8 +80,8 @@
         <option value="$PROJECT_DIR$/src/windows/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/views/MemeImageController.java" />
         <option value="$PROJECT_DIR$/src/classes/R.java" />
-        <option value="$PROJECT_DIR$/src/panels/ImagePanel.java" />
         <option value="$PROJECT_DIR$/src/views/MemeImage.java" />
+        <option value="$PROJECT_DIR$/src/panels/ImagePanel.java" />
       </list>
     </option>
   </component>
@@ -109,12 +108,6 @@
               <item name="Meme Maker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Meme Maker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Meme Maker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Meme Maker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,12 +174,12 @@
       <workItem from="1529820963799" duration="8518000" />
       <workItem from="1529907889289" duration="857000" />
       <workItem from="1529943929854" duration="1328000" />
-      <workItem from="1529950954629" duration="1703000" />
+      <workItem from="1529950954629" duration="1948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19095000" />
+    <option name="totallyTimeSpent" value="19340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -199,11 +192,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17851374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17851374" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -530,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/panels/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" column="110" lean-forward="true" selection-start-line="34" selection-start-column="110" selection-end-line="34" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/awt/Graphics2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -549,11 +532,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/MemeImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="62">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="docComment;class#MemeImage#0" />
             <element signature="method#setupUI#0;class#MemeImage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panels/ImagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

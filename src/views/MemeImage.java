@@ -25,7 +25,7 @@ public class MemeImage extends JLabel {
     }
 
     @Nullable
-    public BufferedImage resizeImage(@NotNull File image, final int width, final int height){
+    public static BufferedImage resizeImage(@NotNull File image, final int width, final int height){
         // check file extension
         String extension;
         int i = image.getAbsolutePath().lastIndexOf('.');

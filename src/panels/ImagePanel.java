@@ -32,7 +32,7 @@ public class ImagePanel extends MemePanel {
         if(filename != null){
             // check is file is image
             File image = new File(fileDialog.getDirectory() + fileDialog.getFile());
-            BufferedImage imgBuff = imageView.resizeImage(image, imageView.getWidth(), imageView.getHeight());
+            BufferedImage imgBuff = MemeImage.resizeImage(image, imageView.getWidth(), imageView.getHeight());
             if (imgBuff != null) {
                 imageView.setIcon(new ImageIcon(imgBuff));
             }
