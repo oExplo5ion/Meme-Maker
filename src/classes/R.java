@@ -13,6 +13,7 @@ public class R {
     public static String string_window_title = "Meme Maker";
     public static String string_text_place_holder = "TEXT";
     public static String string_choose_image = "Choose image";
+    public static String string_choose_destination_folder = "Choose destination folder";
     public static String string_image_destination_folder = "Image destination folder";
 
     // ints
@@ -21,6 +22,8 @@ public class R {
 
     // colors
     public static Color color_clear = new Color(0f,0f,0f,0);
+    public static Color color_white = Color.decode("#ffffff");
+    public static Color color_white_dark = Color.decode("#DCDCDC");
     public static Color color_blue_dark = Color.decode("#113F53");
     public static Color color_blue_light = Color.decode("#27566D");
 }

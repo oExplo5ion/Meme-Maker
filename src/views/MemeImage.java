@@ -24,6 +24,13 @@ public class MemeImage extends JLabel {
         setupUI();
     }
 
+    /**
+     * Creates resized BufferedImage from file.
+     * @param image image file which will be resized.
+     * @param width image's new width
+     * @param height image's new height
+     * @return returns null if couldn't create BufferedImage.
+     */
     @Nullable
     public static BufferedImage resizeImage(@NotNull File image, final int width, final int height){
         // check file extension
@@ -39,7 +46,6 @@ public class MemeImage extends JLabel {
                     extension.equals("png")) {
                 // file is an image
                 // create new image
-//                BufferedImage scaledBI = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
                 BufferedImage scaledBI = null;
                 try {
                     scaledBI = ImageIO.read(image);
@@ -54,6 +60,22 @@ public class MemeImage extends JLabel {
             }
         }
         return null;
+    }
+
+    /**
+     * Creates resized Image.
+     * @param image image file which will be resized.
+     * @param width image's new width
+     * @param height image's new height
+     * @return
+     */
+    @Nullable
+    public static Image resizeImage(@NotNull Image image, final int width, final int height){
+        BufferedImage imgBuff = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+        Graphics2D g = imgBuff.createGraphics();
+        g.drawImage(image, 0, 0, width, height, null);
+        g.dispose();
+        return imgBuff;
     }
 
     private void setupUI(){
