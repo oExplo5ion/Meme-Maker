@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49cb7f48-403e-4751-bfe6-62cf45afb86a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/res/ic_next.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meme Maker/classes/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meme Maker/classes/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meme Maker/panels/ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meme Maker/panels/ImagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meme Maker/views/MemeImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meme Maker/views/MemeImage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/panels/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/ImagePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/MemeImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MemeImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panels/SettingsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/SettingsPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +20,8 @@
       <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/windows/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="363">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,17 +29,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/panels/ImagePanel.java">
+      <file leaf-file-name="SettingsPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/panels/SettingsPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2974#2975#0" expanded="true" />
-                <element signature="e#3031#3032#0" expanded="true" />
-                <element signature="e#4097#4098#0" expanded="true" />
-                <element signature="e#4154#4155#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,24 +46,21 @@
       <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/R.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="88" lean-forward="true" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+            <state relative-caret-position="255">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemeImage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/MemeImage.java">
+      <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/panels/ImagePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+            <state relative-caret-position="283">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="65" />
               <folding>
-                <element signature="docComment;class#MemeImage#0" />
-                <element signature="docComment;method#resizeImage#0;class#MemeImage#0" />
-                <element signature="method#resizeImage#0;class#MemeImage#0" />
-                <element signature="e#1352#1371#0" />
-                <element signature="docComment;method#resizeImage#1;class#MemeImage#0" />
-                <element signature="method#setupUI#0;class#MemeImage#0" />
+                <element signature="docComment;class#ImagePanel#0" />
+                <element signature="method#chooseImage#0;class#ImagePanel#0" />
+                <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
               </folding>
             </state>
           </provider>
@@ -98,13 +89,13 @@
         <option value="$PROJECT_DIR$/src/launcher/Application.java" />
         <option value="$PROJECT_DIR$/src/panels/MemePanel.java" />
         <option value="$PROJECT_DIR$/src/classes/MemePanel.java" />
-        <option value="$PROJECT_DIR$/src/panels/SettingsPanel.java" />
         <option value="$PROJECT_DIR$/src/classes/MemeImage.java" />
         <option value="$PROJECT_DIR$/src/windows/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/views/MemeImageController.java" />
         <option value="$PROJECT_DIR$/src/views/MemeImage.java" />
-        <option value="$PROJECT_DIR$/src/classes/R.java" />
         <option value="$PROJECT_DIR$/src/panels/ImagePanel.java" />
+        <option value="$PROJECT_DIR$/src/classes/R.java" />
+        <option value="$PROJECT_DIR$/src/panels/SettingsPanel.java" />
       </list>
     </option>
   </component>
@@ -136,12 +127,6 @@
               <item name="Meme Maker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Meme Maker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Meme Maker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,12 +195,13 @@
       <workItem from="1529907889289" duration="857000" />
       <workItem from="1529943929854" duration="1328000" />
       <workItem from="1529950954629" duration="2545000" />
-      <workItem from="1530024355638" duration="5652000" />
+      <workItem from="1530024355638" duration="5813000" />
+      <workItem from="1530123568448" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25589000" />
+    <option name="totallyTimeSpent" value="27424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -228,11 +214,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18093699" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336026" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -252,10 +238,53 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/windows/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="88" lean-forward="true" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MemeImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;class#MemeImage#0" />
+            <element signature="docComment;method#resizeImage#0;class#MemeImage#0" />
+            <element signature="method#resizeImage#0;class#MemeImage#0" />
+            <element signature="docComment;method#resizeImage#1;class#MemeImage#0" />
+            <element signature="method#setupUI#0;class#MemeImage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panels/ImagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/windows/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -281,7 +310,6 @@
             <element signature="docComment;class#MemeImage#0" />
             <element signature="docComment;method#resizeImage#0;class#MemeImage#0" />
             <element signature="method#resizeImage#0;class#MemeImage#0" />
-            <element signature="e#1352#1371#0" />
             <element signature="docComment;method#resizeImage#1;class#MemeImage#0" />
             <element signature="method#setupUI#0;class#MemeImage#0" />
           </folding>
@@ -293,11 +321,9 @@
         <state relative-caret-position="900">
           <caret line="69" column="46" lean-forward="true" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
           </folding>
         </state>
       </provider>
@@ -327,7 +353,6 @@
             <element signature="docComment;class#MemeImage#0" />
             <element signature="docComment;method#resizeImage#0;class#MemeImage#0" />
             <element signature="method#resizeImage#0;class#MemeImage#0" />
-            <element signature="e#1352#1371#0" />
             <element signature="docComment;method#resizeImage#1;class#MemeImage#0" />
             <element signature="method#setupUI#0;class#MemeImage#0" />
           </folding>
@@ -339,11 +364,9 @@
         <state relative-caret-position="705">
           <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
           </folding>
         </state>
       </provider>
@@ -366,7 +389,6 @@
             <element signature="docComment;class#MemeImage#0" />
             <element signature="docComment;method#resizeImage#0;class#MemeImage#0" />
             <element signature="method#resizeImage#0;class#MemeImage#0" />
-            <element signature="e#1352#1371#0" />
             <element signature="docComment;method#resizeImage#1;class#MemeImage#0" />
             <element signature="method#setupUI#0;class#MemeImage#0" />
           </folding>
@@ -378,11 +400,9 @@
         <state relative-caret-position="570">
           <caret line="51" column="63" lean-forward="true" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
           </folding>
         </state>
       </provider>
@@ -405,7 +425,6 @@
             <element signature="docComment;class#MemeImage#0" />
             <element signature="docComment;method#resizeImage#0;class#MemeImage#0" />
             <element signature="method#resizeImage#0;class#MemeImage#0" />
-            <element signature="e#1352#1371#0" />
             <element signature="docComment;method#resizeImage#1;class#MemeImage#0" />
             <element signature="method#setupUI#0;class#MemeImage#0" />
           </folding>
@@ -417,11 +436,9 @@
         <state relative-caret-position="420">
           <caret line="37" column="74" lean-forward="true" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
           </folding>
         </state>
       </provider>
@@ -431,11 +448,9 @@
         <state relative-caret-position="180">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
           </folding>
         </state>
       </provider>
@@ -476,11 +491,9 @@
         <state relative-caret-position="195">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
           </folding>
         </state>
       </provider>
@@ -527,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/awt/GridBagConstraints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="398" column="18" selection-start-line="398" selection-start-column="18" selection-end-line="398" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -552,20 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="2215" column="24" selection-start-line="2215" selection-start-column="24" selection-end-line="2215" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/panels/SettingsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,16 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/IOUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -644,38 +626,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/UIManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="570" column="23" selection-start-line="570" selection-start-column="23" selection-end-line="570" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/awt/GridBagConstraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="324" column="15" selection-start-line="324" selection-start-column="15" selection-end-line="324" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/windows/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/MemeImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+        <state relative-caret-position="62">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
           <folding>
             <element signature="docComment;class#MemeImage#0" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
             <element signature="docComment;method#resizeImage#0;class#MemeImage#0" />
             <element signature="method#resizeImage#0;class#MemeImage#0" />
-            <element signature="e#1352#1371#0" />
             <element signature="docComment;method#resizeImage#1;class#MemeImage#0" />
-            <element signature="method#setupUI#0;class#MemeImage#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="88" lean-forward="true" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+        <state relative-caret-position="255">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/panels/ImagePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        <state relative-caret-position="283">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="65" />
+          <folding>
+            <element signature="docComment;class#ImagePanel#0" />
+            <element signature="method#chooseImage#0;class#ImagePanel#0" />
+            <element signature="method#chooseDestinationFolder#0;class#ImagePanel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panels/SettingsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
           </folding>
         </state>
       </provider>

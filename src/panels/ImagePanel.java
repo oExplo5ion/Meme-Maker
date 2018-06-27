@@ -19,11 +19,14 @@ import java.io.*;
 public class ImagePanel extends MemePanel {
 
     private final MemeImage imageView = new MemeImage();
-
-    private String imageSavePath;
+    private final JLabel dePaLabel = new JLabel();
 
     public ImagePanel(){
-        imageSavePath = System.getProperty("user.home");
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (ClassNotFoundException | InstantiationException
+                | IllegalAccessException |
+                UnsupportedLookAndFeelException ignored) { }
         setupUI();
     }
 
@@ -47,13 +50,14 @@ public class ImagePanel extends MemePanel {
 
     private void chooseDestinationFolder(){
         // show file dialog
-        FileDialog fileDialog = new FileDialog(new Frame(), R.string_choose_destination_folder, FileDialog.LOAD);
-        fileDialog.setVisible(true);
+        JFileChooser chooser = new JFileChooser();
+        chooser.setCurrentDirectory(new File(System.getProperty("user.home")));
+        chooser.setDialogTitle(R.string_choose_destination_folder);
+        chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        chooser.setAcceptAllFileFilterUsed(false);
 
-        // get result
-        String directoryPath = fileDialog.getDirectory();
-        if(directoryPath != null){
-            System.out.print(directoryPath);
+        if (chooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
+            dePaLabel.setText(chooser.getSelectedFile().getAbsolutePath());
         }
     }
 
@@ -89,7 +93,7 @@ public class ImagePanel extends MemePanel {
         try {
             icon = new ImageIcon(ImageIO.read(stream));
             icon = new ImageIcon(MemeImage.resizeImage(icon.getImage(), 15, 15));
-        } catch (IOException e) { }
+        } catch (IOException ignored) { }
 
         JLabel nextIcon = new JLabel();
         if (icon != null) {
@@ -131,7 +135,7 @@ public class ImagePanel extends MemePanel {
         container.add(deLabel);
 
         // destination path label
-        JLabel dePaLabel = new JLabel(imageSavePath);
+        dePaLabel.setText(System.getProperty("user.home"));
         dePaLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
         dePaLabel.setForeground(R.color_white_dark);
         dePaLabel.addMouseListener(new MouseListener() {
