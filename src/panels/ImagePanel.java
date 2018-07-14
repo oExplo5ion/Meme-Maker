@@ -11,6 +11,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.util.Random;
 
 /**
  *  Controls meme logic such as: meme view, image path,
@@ -28,6 +29,24 @@ public class ImagePanel extends MemePanel {
                 | IllegalAccessException |
                 UnsupportedLookAndFeelException ignored) { }
         setupUI();
+    }
+
+    public void saveImage() {
+        // prepare image
+        Icon icon = imageView.getIcon();
+        BufferedImage imgBuff = new BufferedImage(icon.getIconWidth(), icon.getIconHeight(), BufferedImage.TYPE_INT_RGB);
+        imageView.paint(imgBuff.createGraphics());
+
+        // generate name
+        Random r = new Random();
+        int min = 0;
+        int max = 9999;
+        float random = min + r.nextFloat() * (max - min);
+        String name = "MEME_IMAGE_" + String.valueOf(random);
+        File path = new File(dePaLabel.getText() + "/" + name + ".jpg");
+
+        // write image
+        MemeImage.writeImage(imgBuff, path);
     }
 
     private void chooseImage(){

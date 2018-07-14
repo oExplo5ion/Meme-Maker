@@ -2,6 +2,7 @@ package windows;
 
 import classes.R;
 import panels.ImagePanel;
+import panels.SettingsListerner;
 import panels.SettingsPanel;
 
 import javax.swing.*;
@@ -37,6 +38,12 @@ public class MainWindow extends JFrame {
         add(imagePanel, c);
 
         SettingsPanel settingsPanel = new SettingsPanel();
+        settingsPanel.setSettingsListener(new SettingsListerner() {
+            @Override
+            public void saveImage() {
+                imagePanel.saveImage();
+            }
+        });
         c.gridx = 1;
         c.gridy = 0;
         c.weightx = 0.6;

@@ -1,4 +1,5 @@
 package panels;
 
-public interface SettingsListerner {
+public interface SettingsListerner{
+    void saveImage();
 }

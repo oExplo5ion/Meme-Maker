@@ -3,6 +3,7 @@ package views;
 import classes.R;
 import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;
+import javafx.stage.FileChooser;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -11,6 +12,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Random;
 
 /**
  *  Visual presentation of meme.
@@ -22,6 +24,14 @@ public class MemeImage extends JLabel {
 
     public MemeImage(){
         setupUI();
+    }
+
+    public static void writeImage(@NotNull BufferedImage image, @NotNull File path) {
+        try {
+            ImageIO.write(image, "jpg", path);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
