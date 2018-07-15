@@ -3,7 +3,6 @@ package views;
 import classes.R;
 import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;
-import javafx.stage.FileChooser;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -12,7 +11,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Random;
 
 /**
  *  Visual presentation of meme.
@@ -56,7 +54,7 @@ public class MemeImage extends JLabel {
                     extension.equals("png")) {
                 // file is an image
                 // create new image
-                BufferedImage scaledBI = null;
+                BufferedImage scaledBI;
                 try {
                     scaledBI = ImageIO.read(image);
                     BufferedImage cropedImg = scaledBI.getSubimage(0,0, width, height);
@@ -73,11 +71,10 @@ public class MemeImage extends JLabel {
     }
 
     /**
-     * Creates resized Image.
+     * Creates resided Image.
      * @param image image file which will be resized.
      * @param width image's new width
      * @param height image's new height
-     * @return
      */
     @Nullable
     public static Image resizeImage(@NotNull Image image, final int width, final int height){

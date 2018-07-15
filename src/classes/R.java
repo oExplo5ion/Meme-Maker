@@ -16,6 +16,9 @@ public class R {
     public static String string_choose_destination_folder = "Choose destination folder";
     public static String string_image_destination_folder = "Image destination folder";
     public static String string_button_save = "Save image";
+    public static String string_image_url = "Image url";
+    public static String string_get_image = "Get image";
+    public static String string_thread_download_image = "download_image";
 
     // ints
     public static int int_window_width = 800;

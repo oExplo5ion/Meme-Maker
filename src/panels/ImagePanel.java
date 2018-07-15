@@ -96,6 +96,14 @@ public class ImagePanel extends MemePanel {
 
         container.add(Box.createRigidArea(new Dimension(0, 20)));
 
+        // setup image url field
+        ImageUrlRow row = new ImageUrlRow();
+        row.setImageUrlRowListener(image -> imageView.setIcon(new ImageIcon(image)));
+        row.setAlignmentX(Component.CENTER_ALIGNMENT);
+        container.add(row);
+
+        container.add(Box.createRigidArea(new Dimension(0, 20)));
+
         // setup choose image button
         JButton chooseImageBtn = new JButton();
         chooseImageBtn.setText(R.string_choose_image);
