@@ -43,6 +43,11 @@ public class MainWindow extends JFrame {
             public void saveImage() {
                 imagePanel.saveImage();
             }
+
+            @Override
+            public void resetText() {
+                imagePanel.resetText();
+            }
         });
         c.gridx = 1;
         c.gridy = 0;

@@ -24,6 +24,11 @@ public class MemeImage extends JLabel {
         setupUI();
     }
 
+    public void resetText() {
+        mTopArea.setText(R.string_text_place_holder);
+        mBottomArea.setText(R.string_text_place_holder);
+    }
+
     public static void writeImage(@NotNull BufferedImage image, @NotNull File path) {
         try {
             ImageIO.write(image, "jpg", path);

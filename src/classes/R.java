@@ -19,6 +19,7 @@ public class R {
     public static String string_image_url = "Image url";
     public static String string_get_image = "Get image";
     public static String string_thread_download_image = "download_image";
+    public static String string_reset_text = "Reset text";
 
     // ints
     public static int int_window_width = 800;

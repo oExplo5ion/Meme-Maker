@@ -49,6 +49,10 @@ public class ImagePanel extends MemePanel {
         MemeImage.writeImage(imgBuff, path);
     }
 
+    public void resetText() {
+        imageView.resetText();
+    }
+
     private void chooseImage(){
         // show file dialog
         FileDialog fileDialog = new FileDialog(new Frame(), R.string_choose_image, FileDialog.LOAD);
